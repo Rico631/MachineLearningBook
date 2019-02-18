@@ -3,13 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MachineLearning", "MachineLearning\MachineLearning.shproj", "{9153500A-FF4E-4D14-B2D9-4590BE5C5598}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{0FA90A97-6544-40D9-AC46-FA39DE966EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsRecognizer", "DigitsRecognizer\DigitsRecognizer.csproj", "{B462FB61-C126-462F-9F67-A0C26E54DEDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{317A5F00-2C68-4FC9-9483-2F739C42E813}"
+	ProjectSection(SolutionItems) = preProject
+		Data\trainingsample.csv = Data\trainingsample.csv
+		Data\validationsample.csv = Data\validationsample.csv
+	EndProjectSection
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		MachineLearning\MachineLearning.projitems*{9153500a-ff4e-4d14-b2d9-4590be5c5598}*SharedItemsImports = 13
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B462FB61-C126-462F-9F67-A0C26E54DEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B462FB61-C126-462F-9F67-A0C26E54DEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B462FB61-C126-462F-9F67-A0C26E54DEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B462FB61-C126-462F-9F67-A0C26E54DEDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B462FB61-C126-462F-9F67-A0C26E54DEDF} = {0FA90A97-6544-40D9-AC46-FA39DE966EC4}
 	EndGlobalSection
 EndGlobal
