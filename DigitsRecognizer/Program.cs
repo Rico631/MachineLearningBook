@@ -10,6 +10,10 @@ namespace DigitsRecognizer
     {
         static void Main(string[] args)
         {
+            var trainingPath = @"E:\Projects\SharedProjects\MachineLearning\Data\trainingsample.csv";
+            var training = DataReader.ReadObservations(trainingPath);
+            Console.WriteLine("OK");
+            Console.ReadKey();
         }
     }
 }
